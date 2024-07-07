@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-item-select {
+    @apply w-[240px] mr-3;
+  }
+  .form-item-input {
+    @apply w-[240px] mr-3;
+  }
+  .form-item-date {
+    @apply w-[240px] mr-3;
+  }
+}

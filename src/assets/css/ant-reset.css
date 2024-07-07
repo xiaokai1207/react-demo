@@ -1,0 +1,43 @@
+/* menu */
+.ant-menu-sub.ant-menu-inline {
+  background: none!important;
+}
+
+.ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title {
+  color: #000000;;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.ant-menu-submenu-title:hover {
+  background: rgba(0, 0, 0, 0.03)!important;
+}
+
+.ant-menu-item:not(.ant-menu-item-selected):hover {
+  background: rgba(0, 0, 0, 0.03)!important;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  color: #000000;
+}
+
+.ant-menu-light>.ant-menu .ant-menu-item-selected {
+  color: #000000;
+  background: none;
+}
+
+.ant-menu-light>.ant-menu .ant-menu-item-selected:hover {
+  background: rgba(0, 0, 0, 0.03)!important;
+}
+
+/* form */
+.ant-form-item-label >label {
+  font-size: 12px!important;
+}
+
+/* table */
+.ant-table-thead >tr>th {
+  color: #666666!important;
+}
