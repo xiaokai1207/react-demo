@@ -11,7 +11,7 @@ function verticalCell(props: VerticalCellProp) {
     {
       values.map((val, index) => { 
         if (imgIndex === index) {
-          return (<img key={index} src={val as string} className="w-10" />)
+          return (<img key={index} src={val as string} className="w-10" alt="" />)
         }
         return (<div key={index}>{ val === 0 ? 0 : val || ''}</div>)
       })

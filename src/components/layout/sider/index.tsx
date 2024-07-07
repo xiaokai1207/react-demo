@@ -51,7 +51,6 @@ function Sider() {
     theme="light"
     width={256}
     className='text-black bg-white'
-    // style={{height: 'calc(100vh - 56px)'}}
     collapsible
     collapsed={collapsed}
     collapsedWidth={80}

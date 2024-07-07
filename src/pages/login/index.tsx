@@ -18,7 +18,7 @@ function Login() {
       loading: false,
     });
     localStorage.setItem('user', values.username);
-    navigate('/')
+    navigate('/receiveStock')
   };
 
   return <div className="h-[100vh] bg-cover bg-[url('../../assets/imgs/loginBg.png')] flex-col flex items-center pt-[160px]">

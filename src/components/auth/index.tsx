@@ -1,5 +1,5 @@
 import { LoadingOutlined } from '@ant-design/icons';
-import { createContext, useState, useEffect, ReactNode, useContext } from 'react';
+import { createContext, useState, useEffect, ReactNode } from 'react';
 
 interface Auth {
   user: string;
