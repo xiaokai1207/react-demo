@@ -32,6 +32,17 @@
   background: rgba(0, 0, 0, 0.03)!important;
 }
 
+.ant-layout-sider-trigger span {
+  border: 1px solid #999999;
+  padding: 4px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.ant-layout-sider-trigger span:hover {
+  opacity: 0.8;
+}
+
 /* form */
 .ant-form-item-label >label {
   font-size: 12px!important;

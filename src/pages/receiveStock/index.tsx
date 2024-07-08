@@ -1,11 +1,29 @@
+import { useState } from 'react';
 import ReceiveStockQuery from "./query";  
 import ReceiveStockTable from "./table";
 
-function Order() {
+function ReceiveStock() {
+
+  // const [params, setParams] = useState({})
+  const [loading, setLoading] = useState(false);
+
+  const handleFilter = (params: any) => {
+    console.log("params", params);
+    // setParams(params);
+    handleRefresh();
+  }
+
+  const handleRefresh = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500)
+  };
+
   return <div className="p-8">
-    <ReceiveStockQuery />
-    <ReceiveStockTable />
+    <ReceiveStockQuery onFilter={handleFilter} />
+    <ReceiveStockTable loading={loading} onRefresh={handleRefresh} />
   </div>
 }
 
-export default Order;
+export default ReceiveStock;
