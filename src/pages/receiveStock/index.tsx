@@ -4,12 +4,10 @@ import ReceiveStockTable from "./table";
 
 function ReceiveStock() {
 
-  // const [params, setParams] = useState({})
   const [loading, setLoading] = useState(false);
 
   const handleFilter = (params: any) => {
     console.log("params", params);
-    // setParams(params);
     handleRefresh();
   }
 
